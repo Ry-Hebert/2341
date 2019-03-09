@@ -1,0 +1,188 @@
+body
+{
+    margin: 0em;
+    padding: 0em;
+    display: inline;
+    background-color: black;
+}
+
+#navbar
+{
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 100;
+    font-size: 1.25em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#landing-page
+{
+    height: calc(120vh - 60px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background-image: url("/assets/images/_DSC2345Web_res_6_12_.JPG");
+    background-size: cover;
+    background-position: bottom, center;
+}
+
+#content-page-1
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#welcome-block
+{
+font-size: 1.5em;
+border: .1em solid white;
+padding: 1em;
+width: 15%;
+transform: rotate(45deg);
+display: flex;
+align-items: center;
+justify-content: center
+}
+
+#welcome-block-noRotate
+{
+height: 0;
+padding-top: 50%;
+padding-bottom: 50%;
+transform: rotate(-45deg);
+}
+
+.nav-items
+{
+    margin: 0px;
+    display: flex;
+    flex-flow: row;
+}
+
+.nav-item
+{
+    margin: 20px;
+}
+
+.nav-item-logo
+{
+    margin: 20px;
+}
+
+#navbar
+{
+    background-color: black;
+    color: white;
+}
+
+.nav-i
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-i:hover
+{
+    color: blanchedalmond;
+}
+
+#nav-spacing
+{
+    height: 60px;
+}
+
+#landing-page h1
+{
+display: flex;
+}
+
+.content-section
+{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fort-search
+{
+    background-color: #1ac2fe;
+    color: white;
+}
+
+.flex-row-obj
+{
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#api-search-results
+{
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card
+{
+    height: 25vh;
+    width: 25vh;
+    margin: 1em;
+    transition: 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.is-flipped
+{
+    transform: rotateY(180deg);
+}
+
+.front, .back
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+}
+
+
+.back
+{
+transform: rotateY(180deg);
+}
+
+.addNewItem
+{
+    padding: 5em;
+}
